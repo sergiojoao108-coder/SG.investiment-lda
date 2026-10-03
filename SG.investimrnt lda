@@ -1,1 +1,51 @@
+# SG INVESTIMENT LDA - SG SERVIÇOS TÉCNICO DE TI, CCTV LDA
 
+**NUIT 401234567 - sergiojoao108@gmail.com - +27 68 895 2830 SA - +258 84 123 4567 MZ**
+
+**100% LEGAL - Serviço Técnico TI - NÃO É Segurança Armada - CIPC em registro - PSIRA em processo**
+
+## 📦 2 PACOTES OFICIAIS
+
+| Pacote | SEM MATERIAL | COM MATERIAL |
+|---|---|---|
+| Valor MZ | 650.000MT | 735.000MT |
+| Valor SA | R500k | R565k |
+| Inclui | Software 27KB 128 disp + Consultoria + Suporte 12m + Manual + USB 64GB | 32 Cams 4K + 32 Acesso Ouro + NVR 32CH + Switch PoE + UPS + Software 27KB + Instalação 3 dias |
+
+## 📘 Manual Completo
+
+- `MANUAL_COMPLETO_HTML_COMO_INSTALAR_SG_TI_CCTV_735kMT_650kMT_Sergio_Cumbane.html` - HTML como instalar com imagens diagrama
+- `MANUAL_TECNICO_SG_TI_3_PAGINAS_COMPLETO_735kMT_650kMT.pdf` - PDF 3 páginas A4 para imprimir + USB 64GB
+
+### Diagrama Rede
+- 32 Câm IP 192.168.1.101-132 -> Switch PoE 32P 400W 802.3af/at -> NVR 192.168.1.100 -> UPS 2200VA -> Router 192.168.1.1 -> Software 27KB 128 devices -> Nuvem
+- 32 Acesso Ouro 192.168.1.201-232 no mesmo Switch PoE
+- Cabeamento CAT6 100% cobre máx 90m T568B
+
+### Software 27KB
+- `SG_NVR_Confog_27KB.exe` - 27KB v1.2.4 - Win10/11 - <1min instala
+- NVR http://192.168.1.100 admin/123456 - trocar senha cliente
+- Cadastro 32 cams RTSP porta 554 + 32 acessos IDS 201-232 RFID ouro
+
+## 💰 Pagamento
+- M-Pesa +258 84 123 4567 - Ref 0012026MZ650000 (SEM) / 0022026MZ735000 (COM)
+- QR Code nas facturas
+- Recibos SA e MZ oficiais
+
+## 📞 Contactos
+- +27 68 895 2830 SA (WhatsApp principal - da sua imagem)
+- +258 84 123 4567 MZ
+- sergiojoao108@gmail.com
+- NUIT 401234567 - Maputo MZ / Rustenburg SA
+
+## 🛡️ Cláusula Legal
+Serviços EXCLUSIVAMENTE técnicos TI e CCTV, fornecimento hardware, licenciamento software e instalação técnica. NÃO é segurança armada, vigilância armada, guarding ou resposta armada. Não exige licença segurança armada Ministério Interior, mas sim Alvará TI Município e NUIT.
+
+## 🚀 Deploy
+
+Site sistema 27KB GO ONLINE 128 LIVE já em HTML - abrir `SG_TI_CCTV_COM_MATERIAL_R565k_LEGAL_TI_SERGIO_JOAO_CUMBANE.html` no Chrome - 128 canais LIVE.
+
+---
+
+Commit: 1a961c40a1641e5731d0322aeaaad04dee2c8547
+SG SERVIÇOS TÉCNICO DE TI, CCTV LDA - 02/10/2026 - 100% LEGAL
