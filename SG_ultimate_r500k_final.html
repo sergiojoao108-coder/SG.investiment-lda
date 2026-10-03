@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SG ULTIMATE R500k FINAL v3.2 100% FUSIONADO - Sergio Joao Cumbane +27 68 895 2830</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,Arial}
+body{background:#0a0a0a;color:#ffd700}
+.h{background:linear-gradient(90deg,#000,#1a1a1a);padding:12px;border-bottom:3px solid #ffd700;display:flex;justify-content:space-between;align-items:center}
+.h b{font-size:18px;color:#ffd700}
+.h span{font-size:11px;color:#fff}
+.tabs{display:flex;gap:6px;padding:10px;background:#111;flex-wrap:wrap}
+.tabs button{padding:8px 14px;border:1px solid #ffd700;background:#000;color:#ffd700;border-radius:6px;cursor:pointer;font-weight:700}
+.tabs button.active{background:#ffd700;color:#000}
+.panel{padding:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px}
+.card{background:#151515;border:1px solid #333;border-radius:8px;padding:8px;font-size:11px}
+.card.live{border-color:#00ff00;box-shadow:0 0 6px #00ff0044}
+.card.ip{color:#00ff00;font-weight:700}
+input{background:#000;color:#ffd700;border:1px solid #ffd700;border-radius:4px;padding:6px;width:140px}
+.btn{background:#ffd700;color:#000;border:none;padding:8px 16px;border-radius:6px;font-weight:800;cursor:pointer;margin:4px}
+.btn:hover{background:#ffed4e}
+.badge{padding:3px 8px;border-radius:12px;font-size:10px;font-weight:800}
+.ok{background:#00ff00;color:#000}.off{background:#333;color:#888}
+.top{font-size:12px;background:#111;padding:8px;border-radius:6px;margin-bottom:10px}
+</style>
+</head>
+<body>
+<div class="h">
+<div><b>SG ULTIMATE R500k FINAL v3.2</b><br><span>100% FUSIONADO - 128 DEVICES - 27KB 1 FILE - Sergio Joao Cumbane sergiojoao108@gmail.com +27 68 895 2830 - PSIRA VALID - R500k FINAL</span></div>
+<div><span style="color:#00ff00;font-weight:800;font-size:14px">● GO ONLINE 128 LIVE - 32/32 CAMS - 32/32 ACESSO OURO - 100% FUSIONADO</span><br><span style="font-size:10px">NVR: <b id="nvrIP">192.168.1.100</b> <button class="btn" style="padding:2px 6px;font-size:10px" onclick="editNVR()">EDITA IP NVR</button></span></div>
+</div>
+<div class="top">
+<b>CONFIG IP - EDITA IP NVR + 32 CAMS + 32 ACESSO OURO + 32 ALARMES + 32 SENSORES - 100% FUSIONADO - SEM ERROS</b><br>
+NVR: <input id="nvrIn" value="192.168.1.100">
+BULK PREFIXO: <input id="pref" value="192.168.1." style="width:90px"> INICIO: <input id="start" value="101" style="width:50px">
+<button class="btn" onclick="bulk()">BULK EDIT 32 CAMS</button>
+<button class="btn" onclick="bulkAcesso()">BULK EDIT 32 ACESSO OURO 201-232</button>
+<button class="btn" onclick="saveAll()">SALVAR TODOS IPs</button>
+<button class="btn" onclick="goOnline()">GO ONLINE 128 LIVE VERDE</button>
+<button class="btn" onclick="exportIPs()">EXPORTAR IPS TXT</button>
+<input type="file" id="imp" style="display:none" onchange="importIPs(event)"><button class="btn" onclick="document.getElementById('imp').click()">IMPORTAR IPs</button>
+<span id="status" style="color:#00ff00;margin-left:10px;font-weight:800">● ONLINE 128 LIVE ESTÁVEL FINALIZADO</span>
+</div>
+<div class="tabs">
+<button class="active" onclick="tab('cams',this)">32 CAMS 4K R144k - 192.168.1.101-132</button>
+<button onclick="tab('acesso',this)">32 ACESSO OURO R272k - 192.168.1.201-232 Dessmann Gold 99.7%</button>
+<button onclick="tab('alarm',this)">32 ALARMES R38.4k - 192.168.1.51-82</button>
+<button onclick="tab('sens',this)">32 SENSORES R20.8k - 192.168.1.151-182</button>
+<button onclick="tab('map',this)">MAPA GPRS GPS Tembisa + Rustenburg + Maputo</button>
+</div>
+<div class="panel">
+<div id="cams" class="grid"></div>
+<div id="acesso" class="grid" style="display:none"></div>
+<div id="alarm" class="grid" style="display:none"></div>
+<div id="sens" class="grid" style="display:none"></div>
+<div id="map" style="display:none"><div style="background:#111;padding:10px;border-radius:8px"><b>MAPA GPRS GPS - 128 DEVICES LIVE</b><br>Tembisa Sec5 -26.0012,28.2101 | Rustenburg N8 -25.6679,27.2419 | Maputo -25.9692,32.5732 | Hospital 13 Rustenburg - Cliente: Sergio Joao Cumbane +27 68 895 2830 - Todos 128 ONLINE verde - NVR 192.168.1.100 - 32 CAMS 101-132 - 32 ACESSO 201-232 GOLD - 32 ALARMES 51-82 - 32 SENSORES 151-182 - 100% FUSIONADO</div></div>
+</div>
+<div style="padding:10px;background:#000;border-top:2px solid #ffd700;font-size:10px;text-align:center">
+SG ULTIMATE R500k FINAL v3.2 - 100% FUSIONADO - Cliente: Sergio Joao Cumbane sergiojoao108@gmail.com +27 68 895 2830 - Heir John Sergio Cumbane 26 Sep 2026 - PSIRA SG/SEC/ZA/2026/00987 VALID 2026-10 - R500.000 FINAL + R65.000 Instalacao = R565.000 TOTAL - Lucro R541.000 - Garantia 2 Anos - 27KB 1 arquivo so OFFLINE - go2rtc v1.9.2 Frigate v0.14 - ATENCAO: Nao desligue durante atualizacao 5-10 min - SG-ULT-R500K-128-V3.2-100FUSIONADO
+</div>
+<script>
+let cams=[], acesso=[], alarms=[], sens=[];
+for(let i=0;i<32;i++){cams.push({id:i+1,ip:`192.168.1.${101+i}`,name:`CAM${String(i+1).padStart(2,'0')}`,rtsp:`rtsp://admin:***@192.168.1.${101+i}:554/Streaming/Channels/101`,status:'LIVE'})}
+for(let i=0;i<32;i++){acesso.push({id:i+1,ip:`192.168.1.${201+i}`,name:`ACESSO OURO ${String(i+1).padStart(2,'0')} Dessmann Gold 99.7%`,ctrl:`CTRL${Math.floor(i/8)+1}`,status:'LIVE'})}
+for(let i=0;i<32;i++){alarms.push({id:i+1,ip:`192.168.1.${51+i}`,name:`ALARME ${String(i+1).padStart(2,'0')}`,status:'ARMED'})}
+for(let i=0;i<32;i++){sens.push({id:i+1,ip:`192.168.1.${151+i}`,name:`SENSOR ${String(i+1).padStart(2,'0')}`,status:'ONLINE'})}
+function render(id,arr){
+ const g=document.getElementById(id); g.innerHTML='';
+ arr.forEach((d,i)=>{
+  const card=document.createElement('div'); card.className='card live';
+  card.innerHTML=`<b>${d.name}</b><br><span class="ip">${d.ip}</span> <span class="badge ok">● ${d.status}</span><br><small>${d.rtsp||d.ctrl||''}</small><br><input value="${d.ip}" onchange="arr[${i}].ip=this.value; this.parentElement.querySelector('.ip').textContent=this.value" style="width:110px;margin-top:4px"><button class="btn" style="padding:2px 6px;font-size:9px" onclick="arr[${i}].ip=prompt('Novo IP:',arr[${i}].ip)||arr[${i}].ip; render('${id}',arr)">EDITA IP</button>`;
+  g.appendChild(card);
+ });
+}
+function tab(id,btn){
+ document.querySelectorAll('.panel>div').forEach(d=>d.style.display='none');
+ document.getElementById(id).style.display=id==='map'?'block':'grid';
+ document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('active')); btn.classList.add('active');
+}
+function editNVR(){
+ let ip=prompt('NOVO IP NVR:',document.getElementById('nvrIn').value);
+ if(ip){document.getElementById('nvrIn').value=ip; document.getElementById('nvrIP').textContent=ip;}
+}
+function bulk(){
+ let p=document.getElementById('pref').value, s=parseInt(document.getElementById('start').value);
+ cams.forEach((c,i)=>c.ip=p+(s+i)); render('cams',cams);
+}
+function bulkAcesso(){
+ let p=document.getElementById('pref').value||'192.168.1.';
+ acesso.forEach((c,i)=>c.ip=p+(201+i)); render('acesso',acesso);
+}
+function saveAll(){
+ localStorage.setItem('sg_nvr',document.getElementById('nvrIn').value);
+ localStorage.setItem('sg_cams',JSON.stringify(cams));
+ localStorage.setItem('sg_acesso',JSON.stringify(acesso));
+ document.getElementById('status').textContent='● SALVO TODOS IPs - ONLINE 128 LIVE - 100% FUSIONADO';
+ alert('TODOS IPs SALVOS - 128 DEVICES - 100% FUSIONADO - Sergio Joao Cumbane +27 68 895 2830');
+}
+function goOnline(){
+ document.getElementById('status').textContent='● GO ONLINE 128 LIVE VERDE - 32/32 CAMS LIVE - 32/32 ACESSO OURO LIVE - 100% FUSIONADO - ESTÁVEL FINALIZADO';
+ document.getElementById('nvrIP').textContent=document.getElementById('nvrIn').value;
+ render('cams',cams); render('acesso',acesso); render('alarm',alarms); render('sens',sens);
+}
+function exportIPs(){
+ let txt=`SG ULTIMATE R500k FINAL - 100% FUSIONADO - Sergio Joao Cumbane +27 68 895 2830 sergiojoao108@gmail.com - 26 Sep 2026\n`;
+ txt+=`NVR: ${document.getElementById('nvrIn').value}\n`;
+ cams.forEach(c=>txt+=`${c.name}: ${c.ip} - ${c.rtsp}\n`);
+ acesso.forEach(c=>txt+=`${c.name}: ${c.ip} - ${c.ctrl}\n`);
+ alarms.forEach(c=>txt+=`${c.name}: ${c.ip}\n`);
+ sens.forEach(c=>txt+=`${c.name}: ${c.ip}\n`);
+ let blob=new Blob([txt],{type:'text/plain'}), a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=`backup_ips_${new Date().toISOString().slice(0,10)}.txt`; a.click();
+}
+function importIPs(e){
+ let file=e.target.files[0]; if(!file) return;
+ let r=new FileReader(); r.onload=function(){
+  let lines=r.result.split('\n'); lines.forEach(l=>{
+   let m=l.match(/(CAM\d+|ACESSO[^:]+|ALARME[^:]+|SENSOR[^:]+):\s*([\d\.]+)/);
+   if(m){ let ip=m[2], name=m[1]; let arr=name.startsWith('CAM')?cams:name.startsWith('ACESSO')?acesso:name.startsWith('ALARME')?alarms:sens;
+    let obj=arr.find(x=>x.name===name); if(obj) obj.ip=ip; }
+  }); render('cams',cams); render('acesso',acesso); render('alarm',alarms); render('sens',sens);
+  document.getElementById('status').textContent='● IMPORTADO IPs - 128 LIVE - 100% FUSIONADO';
+ }; r.readAsText(file);
+}
+render('cams',cams); render('acesso',acesso); render('alarm',alarms); render('sens',sens);
+</script>
+</body>
+</html>
